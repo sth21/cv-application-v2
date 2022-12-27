@@ -14,12 +14,12 @@
   },
   "homepage": "https://sth21.github.io/cv-application-v2",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/sth21/cv-application-v2",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/sth21/cv-application-v2"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
